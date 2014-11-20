@@ -1,0 +1,52 @@
+/* CSS für die Lightbox & Responsive lightbox */
+#lightbox2-overlay {width:100% !important;}
+#outerImageContainer {
+	max-width: 100%;
+	height: auto !important;
+	
+}
+#imageContainer, #frameContainer, #modalContainer {
+	height: auto !important;
+	max-width: 100% !important;
+}
+#imageDataContainer {max-width: 100%;}
+#lightboxImage {
+	height: auto !important;
+	max-width: 100% ;
+}
+
+#bottomNav {
+margin-top: -40px;
+padding-bottom: 5px;
+}
+
+.field-field-lightbox {
+	background: #000;
+}
+ 
+	.field-field-lightbox img {
+		-moz-transition:  opacity .3s linear;
+		-webkit-transition:  opacity .3s linear;
+		transition:  opacity .3s linear;
+opacity: 1;
+	}
+ 
+	.field-field-lightbox img:hover {
+		opacity: 0.8;
+	}
+
+#imageData #imageDetails
+{
+padding-top: 18px;
+font-family: 'Droid Sans',"Helvetica Neu",Helvetica,Verdana,"Helvetica Neu",Arial,sans-serif;
+font-weight: bold;
+font-size: 11px;
+}
+
+.field-field-lightbox
+{
+height: 280px;
+overflow: hidden;
+width: 280px;
+}
+
